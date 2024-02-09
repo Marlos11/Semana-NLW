@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: 'Qual propriedade CSS é usada para alterar a cor do texto?',
+        pergunta: 'Qual é o ano de fundação da Sociedade Esportiva Palmeiras?',
         respostas: [
-            'color',
-            'background-color',
-            'font-color'
+            '1914',
+            '1920',
+            '1930'
         ],
         correta: 0
     },
     {
-        pergunta: 'Qual seletor CSS é usado para aplicar regras a um elemento com um ID específico?',
+        pergunta: 'Qual é o estádio principal utilizado pela Sociedade Esportiva Palmeiras em seus jogos como mandante?',
         respostas: [
-            'class',
-            'tag',
-            'id'
+            'Allianz Parque',
+            'Maracanã',
+            'Mineirão'
+        ],
+        correta: 0
+    },
+    {
+        pergunta: 'Quem é considerado o maior artilheiro da história da Sociedade Esportiva Palmeiras?',
+        respostas: [
+            'Ademir da Guia',
+            'Evair',
+            'César Maluco'
         ],
         correta: 2
     },
     {
-        pergunta: 'Qual unidade CSS é usada para medir distâncias relativas ao tamanho da fonte de um elemento?',
+        pergunta: 'Quantas vezes a Sociedade Esportiva Palmeiras conquistou a Copa Libertadores da América até o momento?',
         respostas: [
-            'px',
-            'em',
-            'cm'
+            '1 vez',
+            '2 vezes',
+            '3 vezes'
         ],
         correta: 1
     },
     {
-        pergunta: 'Qual é o padrão de caixa de modelo de layout CSS que inclui padding e border no cálculo da largura total de um elemento?',
+        pergunta: 'Qual técnico liderou a Sociedade Esportiva Palmeiras na conquista da Copa Libertadores da América em 1999?',
         respostas: [
-            'box-sizing: content-box;',
-            'box-sizing: border-box;',
-            'box-sizing: padding-box;'
-        ],
-        correta: 1
-    },
-    {
-        pergunta: 'Qual propriedade CSS é usada para alterar a posição de um elemento em relação ao seu contêiner pai?',
-        respostas: [
-            'position',
-            'display',
-            'float'
+            'Felipão',
+            'Luxemburgo',
+            'Cuca'
         ],
         correta: 0
     },
     {
-        pergunta: 'Qual é a função da propriedade CSS "z-index"?',
+        pergunta: 'Quem é o presidente atual da Sociedade Esportiva Palmeiras?',
         respostas: [
-            'Controlar a opacidade do elemento',
-            'Determinar a ordem de empilhamento dos elementos',
-            'Definir a transição de cor de fundo'
-        ],
-        correta: 1
-    },
-    {
-        pergunta: 'Qual é o seletor CSS usado para aplicar estilos a todos os elementos de uma lista não ordenada?',
-        respostas: [
-            'ul',
-            'ol',
-            'li'
+            'Maurício Galiotte',
+            'Paulo Nobre',
+            'Luiz Gonzaga Belluzzo'
         ],
         correta: 0
     },
     {
-        pergunta: 'Qual propriedade CSS é usada para definir a altura de uma caixa de elemento?',
+        pergunta: 'Qual jogador foi eleito o melhor do mundo atuando pela Sociedade Esportiva Palmeiras?',
         respostas: [
-            'height',
-            'width',
-            'size'
+            'Rivaldo',
+            'Edmundo',
+            'Marcos'
+        ],
+        correta: 2
+    },
+    {
+        pergunta: 'Quantas vezes a Sociedade Esportiva Palmeiras venceu o Campeonato Brasileiro de Futebol?',
+        respostas: [
+            '8 vezes',
+            '10 vezes',
+            '12 vezes'
+        ],
+        correta: 2
+    },
+    {
+        pergunta: 'Qual foi a última conquista internacional da Sociedade Esportiva Palmeiras?',
+        respostas: [
+            'Copa Mercosul',
+            'Copa do Brasil',
+            'Copa Sul-Americana'
         ],
         correta: 0
     },
     {
-        pergunta: 'Qual é a sintaxe correta para comentar em CSS?',
+        pergunta: 'Qual é o maior rival da Sociedade Esportiva Palmeiras no futebol?',
         respostas: [
-            '/* Comentário */',
-            '// Comentário',
-            '<!-- Comentário -->'
+            'Santos',
+            'São Paulo',
+            'Corinthians'
         ],
-        correta: 0
-    },
-    {
-        pergunta: 'Qual é a propriedade CSS usada para adicionar sombras a elementos?',
-        respostas: [
-            'text-shadow',
-            'box-shadow',
-            'shadow'
-        ],
-        correta: 1
+        correta: 2
     }
 ];
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
